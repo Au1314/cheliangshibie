@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 虚拟环境
+.venv/
+venv/
+env/
+plate310/
+
+# 运行时输出视频（本仓库保留 report.html 与 vehicles/ 截图）
+result.mp4
+
+# IDE / 系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
