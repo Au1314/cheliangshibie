@@ -28,10 +28,21 @@ YOLO 检测与 BoTSORT 多目标跟踪，判断车辆是否停放，并对其中
 .
 ├── 测试-5.py            # 主程序（V10）
 ├── botsort_custom.yaml  # BoTSORT 跟踪器配置（运行时自动生成）
+├── result.mp4           # 处理结果演示视频（压缩版）
 ├── report.html          # 生成的识别报告（HTML，内嵌图片）
 ├── vehicles/            # 车辆截图归档（按车牌号/UNKNOWN 分目录）
 └── README.md
 ```
+
+## 演示视频
+
+处理结果演示视频已上传至本仓库（`result.mp4`，压缩版 1080p）：
+
+[▶ 观看演示视频 / 下载](./result.mp4)
+
+> 说明：原始处理结果视频体积约 2 GB（OpenCV 默认高码率编码，约 58 Mbps），
+> 为便于上传已压缩为约 79 MB 的 H.264（1080p、2.4 Mbps、`faststart`），
+> 分辨率、帧率与时长均保持不变。
 
 ## 环境依赖
 
