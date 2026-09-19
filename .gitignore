@@ -10,8 +10,8 @@ venv/
 env/
 plate310/
 
-# 运行时输出视频（本仓库保留 report.html 与 vehicles/ 截图）
-result.mp4
+# 原始高清视频（体积过大不提交；仓库提交的是压缩后的 result.mp4）
+result_original.mp4
 
 # IDE / 系统
 .idea/
